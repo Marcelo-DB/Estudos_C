@@ -1,0 +1,23 @@
+# 📌 Estudos em C  
+
+Este repositório contém meus estudos e práticas em **linguagem C**, baseados no livro **C - Como Programar (Deitel - 2011)** e outras fontes.  
+
+## 📂 Estrutura do Repositório  
+Aqui estão os capítulos organizados por tópicos:  
+
+- **Capítulo 6 - Arrays**  
+  - Introdução aos Arrays  
+  - Inicialização e manipulação  
+  - Arrays multidimensionais (Matrizes)  
+  - Exemplos de código  
+
+- **Capítulo 7 - Ponteiros** *(futuramente)*  
+  - Declaração e uso de ponteiros  
+  - Relacionamento entre Arrays e Ponteiros  
+  - Alocação dinâmica de memória  
+
+## 🛠 Como usar os códigos  
+Para compilar e executar os exemplos:  
+```sh
+gcc nome_do_arquivo.c -o nome_do_executavel
+./nome_do_executavel
