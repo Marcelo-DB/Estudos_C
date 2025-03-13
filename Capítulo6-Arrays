@@ -18,10 +18,12 @@ Aqui estão os capítulos organizados por tópicos:
 
 ## 🛠 Como usar os códigos  
 Para compilar e executar os exemplos:  
+
 ```sh
 gcc nome_do_arquivo.c -o nome_do_executavel
 ./nome_do_executavel
 ```
+
 🚀 Objetivo
 Este repositório serve como um material de consulta e prática, documentando minha evolução na linguagem C.
 
