@@ -30,7 +30,7 @@ Este repositório serve como um material de consulta e prática, documentando mi
 
 💡 Contribuições e sugestões são bem-vindas! 😎
 
-## Introdução aos Arrays
+## 📜 Introdução aos Arrays
 
 A partir desse momento, vamos começar a estudar uma parte muito importante na estrutura de dados: os arrays.
 
@@ -47,7 +47,7 @@ Já o **c[i]** indica o elemento que está sendo armazenado na memória correspo
 | s[i] |  6  |  9  |  2  | -20 |  0  | 110 |  4  |
 +-----+-----+-----+-----+-----+-----+-----+-----+
 
-Figura 6-1 simulação de array na memória
+💻 Figura 6-1 simulação de array na memória
 
 Um array possui um nome e um subescrito (o elemento que fica entre colchetes []) para que seja especificado qual elemento na memória estamos trabalhando, no caso, 
 o array possui um nome 's' com os subescritos sempre iniciando com o valor 0 (sempre inicia com valor zero, isso pode confundir no início mas é bom se familiarizar com certas regras de subescrito rm arrays porque isso pode gerar muitos erros e inconsistências, CUIDADO!!!)
@@ -55,6 +55,7 @@ o array possui um nome 's' com os subescritos sempre iniciando com o valor 0 (se
 Quando indicamos no programa s[3] estamos nos referindo ao array 's' com subescrito número 3 na quarta posição de memória (a primeira posição é sempre o suvbescrito zero).
 Nesse espaço, está "guardado" o número -20, quando queremos, por exemplo, imprimir o número -20, colocamos em C:
 
+```c
 /*bibliotecas de entrada e saída de dados*/
 #include<stdio.h>
 
@@ -70,7 +71,7 @@ int main (){
   return 0;
 } //fim da função main
 
-Exemplo 6-1 - Array com sete elementos.
+💻 Exemplo 6-1 - Array com sete elementos.
 
 a saída desse programa será -20.
 
