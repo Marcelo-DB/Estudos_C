@@ -42,38 +42,45 @@ Já o **c[i]** indica o elemento que está sendo armazenado na memória correspo
 
 
 +-----+-----+-----+-----+-----+-----+-----+-----+
-|   i  |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
+|  i  |  0  |  1  |  2  |  3  |  4  |  5  |  6  |
 +-----+-----+-----+-----+-----+-----+-----+-----+
-| s[i] |  6  |  9  |  2  | -20 |  0  | 110 |  4  |
+| s[i]|  6  |  9  |  2  | -20 |  0  | 110 |  4  |
 +-----+-----+-----+-----+-----+-----+-----+-----+
 
 💻 Figura 6-1 simulação de array na memória
 
-Um array possui um nome e um subescrito (o elemento que fica entre colchetes []) para que seja especificado qual elemento na memória estamos trabalhando, no caso, 
-o array possui um nome 's' com os subescritos sempre iniciando com o valor 0 (sempre inicia com valor zero, isso pode confundir no início mas é bom se familiarizar com certas regras de subescrito rm arrays porque isso pode gerar muitos erros e inconsistências, CUIDADO!!!)
+No exemplo acima:
 
-Quando indicamos no programa s[3] estamos nos referindo ao array 's' com subescrito número 3 na quarta posição de memória (a primeira posição é sempre o suvbescrito zero).
-Nesse espaço, está "guardado" o número -20, quando queremos, por exemplo, imprimir o número -20, colocamos em C:
+-i representa o índice do array (posição na memória).
+-s[i] representa o valor armazenado na posição i.
 
-```c
-/*bibliotecas de entrada e saída de dados*/
-#include<stdio.h>
+💡 Importante: O primeiro elemento de um array sempre começa no índice 0.
+Isso pode gerar confusão no início, mas é essencial se acostumar com essa regra para evitar erros e inconsistências no código.
 
-/*início da função main*/
-int main (){
+🔢 Acessando um Elemento do Array
+Para acessar um elemento específico do array, usamos a notação s[indice].
+Por exemplo, se quisermos acessar o número -20, que está na quarta posição (índice 3), fazemos:
 
-  int s[7] = {6 ,9 ,2 ,-20 ,0 ,110 ,4 } //entra com array 's', aloca 7 espaços na memória 
-                                        //e acresenta os elementos a serem inseridos
+/* Inclusão da biblioteca de entrada e saída */
+#include <stdio.h>
 
-  /*imprime o valor da quarta posição na memória / subescrito de endereço 3*/
-  printf("%d", s [3);
+/* Função principal */
+int main() {
+    /* Declaração e inicialização do array */
+    int s[7] = {6, 9, 2, -20, 0, 110, 4};
 
-  return 0;
-} //fim da função main
+    /* Imprime o valor armazenado no índice 3 (quarta posição) */
+    printf("O valor na quarta posição do array é: %d\n", s[3]);
+
+    return 0;
+}
 
 💻 Exemplo 6-1 - Array com sete elementos.
 
-a saída desse programa será -20.
+📌 Saída esperada:
+
+O valor na quarta posição do array é: -20
+
 
 
 
