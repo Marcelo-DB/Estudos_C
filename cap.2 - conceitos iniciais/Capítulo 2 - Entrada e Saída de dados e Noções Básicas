@@ -1,6 +1,6 @@
 # Noções Básicas em C - Entrada e Saída de Dados
 
-### **📌 Código em C - Hello World!**
+## **📌 Código em C - Hello World!**
 
 Vamos começar nosso estudo em C com um simples código que todo programador faz ao iniciar uma nova linguagem de programação: **Hello World!**  
 
@@ -27,7 +27,7 @@ int main (void) {
 } /* Fim da função main */
 
 
-> [1001 - Extremamente Básico](https://www.beecrowd.com.br/judge/pt/problems/view/1001)
+🟢 1001 - Hello World!→ Extremamente Básico](https://www.beecrowd.com.br/judge/pt/problems/view/1001).
 
 Vamos observar cada componente desse programa em C e comentá-lo a fim de explicar como funciona o código!
 
@@ -148,7 +148,7 @@ gcc helloworld.c -o helloworld
 Agora é só executar e ver a mágica acontecer! 🎩✨
 
 
-### **📌 Área do Círculo e Produto Simples
+## **📌 Área do Círculo e Produto Simples**
 
 Como disse o astronauta Neil Armstrong ao pisar na Lua:
 
@@ -168,7 +168,7 @@ E para isso, resolveremos dois problemas clássicos do Beecrowd:
 🟢 1004 - Produto Simples → Trabalharemos com operações matemáticas básicas e formataremos a saída corretamente.
 Agora, bora codar! 💻🔥
 
-#### **📌 Produto Simples
+### **📌 Produto Simples
 
 c
 
@@ -310,7 +310,7 @@ Agora é só executar e conferir de a multiplicação dá certo! 🎩✨
 Vamos agora partir para o próximo e último exemplo desse capítulo.
 
 
-#### **📌 Área do Círculo
+## **📌 Área do Círculo**
 
 c
 
@@ -349,7 +349,7 @@ int main (void) {
 
 usuário.
 
-📌 Análise do Código
+### 📌 Análise do Código
 
 Este problema do Beecrowd (1002 - Área do Círculo) ensina a trabalhar com números de ponto flutuante (double) e a função scanf() para 
 
