@@ -322,9 +322,10 @@ Hello World!
 
 e seu programa em C foi executado com sucesso!
 
+ 📌 Fontes: [Compilando e executando programas em C/C++ no Windows](https://www.alura.com.br/artigos/compilando-executando-programas-c-c-windows)  
+
 
 🐧 Linux 
-
 
 
 > Para instalar o compilador `gcc` em uma distribuição Linux, recomendo fortemente que pesquise o compilador `gcc` na loja de 
