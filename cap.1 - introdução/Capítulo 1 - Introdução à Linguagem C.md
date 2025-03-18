@@ -1,6 +1,6 @@
 # Introdução à Linguagem de Programação C
 
-## **📌 Introdução **
+## **📌 Introdução**
 
 🎯 C é uma linguagem de programação compilada, de propósito geral, estruturada, imperativa e procedural, padronizada pela Organização Internacional para Padronização (ISO).
 
@@ -52,7 +52,7 @@ C11 e C17 adicionaram mais refinamentos, segurança e suporte para concorrência
 
 conceitos formais, por enquanto serve como introdução.
 
-## 📌 *Como tudo começou...*
+## 📌 **Como tudo começou...**
 
 
 🌕 🧑🏻‍🚀 ☮️ 🚀 O homem tinha acabado de pisar na Lua, os direitos civis estavam em alta pipocando no mundo todo, uma geração de muita 
@@ -148,7 +148,7 @@ Microsoft Windows passaram a ser escritos em C e muitas outras linguagens de
 programação criadas a partir de então se basearam em C como *Java* e *C++*.  
 
 
-## 📌 *Por quê aprender C?*
+## **📌 *Por quê aprender C?**
 
 
 Eis a pergunta que não quer calar: por quê? 🤷🏻‍♂️
@@ -193,7 +193,7 @@ operacionais.
 > de verdade, C é o caminho. 🚀
 
 
-📌 Compilador GCC - Instalando no seu Sistema
+## 📌 **Compilador GCC - Instalando no seu Sistema**
 
 Agora vamos sugerir e orientar como instalar os compiladores e gerenciadores no computador para que possa começar a programar em C.
 
@@ -441,7 +441,7 @@ gcc --version
 
 ```
 
-📌 Conclusão
+## 📌 **Conclusão**
 
 A linguagem C não é apenas mais uma linguagem de programação; ela é a base sobre 
 
