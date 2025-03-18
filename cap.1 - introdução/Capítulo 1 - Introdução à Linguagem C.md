@@ -94,7 +94,6 @@ _start:
     xor rdi, rdi    ; Código de saída 0
     syscall         ; Finaliza o programa
 
-
 ```
 
 🟢 Exemplo em Assembly - Hello World → exemplo de *linguagem de baixo nível* que tem por objetivo imprimir na tela a mensagem "Hello World!".
@@ -122,7 +121,6 @@ int main (void) {
 
 
 > Enquanto o Assembly exige manipulação direta dos registradores e chamadas explícitas ao kernel, C permite um código mais limpo e 
-
 > legível, sem perder o controle sobre o hardware.
 
 
@@ -215,7 +213,6 @@ https://sourceforge.net/projects/mingw/
 
 
 > Observe que o MinGW oferece o download e a instalação de compiladores de outras linguagens de programação como Ada, Basic e FORTRAN 
-
 > caso o usuário se envolva nessas linguagens também! 🤓💾
 
 
@@ -251,7 +248,6 @@ Copie o código abaixo e salve no programa *Bloco de Notas* como *teste.c* .
 
 ```c
 
-
 /* Nome do Programa: Hello World!
    Programador: 
    Data: 16/03/2025
@@ -269,7 +265,6 @@ int main (void) {
     
 } /* Fim da função main */
 
-
 ```
 
 Depois, entre no CMD do Windows ou no Power Shell. Acesse o local onde foi salvo o seu arquivo *teste.c*. Para saber quais pastas 
@@ -279,10 +274,7 @@ estão disponíveis no local em que está direcionado no *cmd/Power Shell* digit
 *dir* e a pasta *Documentos* estiver listada, acesse o seu arquivo digitando: 
 
 ```
-
-cd Documentos 
-
-
+cd Documentos
 ```
 
 Se não tiver listado a pasta o qual salvou o seu arquivo *teste.c*, digite o comando *cd PASTA* seguidamente até achar o local que 
@@ -292,10 +284,7 @@ está salvo o arquivo.
 Após acessar a pasta onde está teste.c, digite o comando:
 
 ```
-
 gcc teste.c -o teste.exe
-
-
 ```
 
 Se não aparecer nenhuma mensagem, significa que o `gcc` foi instalado com sucesso e que seu arquivo foi *compilado* com sucesso.
@@ -303,19 +292,13 @@ Se não aparecer nenhuma mensagem, significa que o `gcc` foi instalado com suces
 Agora, digite 
 
 ```
-
 .\”teste.exe”
-
-
 ```
 
 que vai aparecer a mensagem
 
 ```
-
 Hello World! 
-
-
 ```
 
 e seu programa em C foi executado com sucesso!
@@ -343,9 +326,7 @@ Caso queira instalar por meio do *terminal de comando* use o seguinte comando:
 * Para distribuições com pacotes `.deb` utilize o seguinte comando no terminal: 
 
 ```bash
-
 sudo apt update && sudo apt install build-essential
-
 ```
 
 No Debian, o `gcc` pode também ser encontrado e instalado no *Gerenciador de Pacotes Synaptic* com muita facilidade e 
@@ -364,19 +345,14 @@ manipulá-los pois isso pode comprometer a usabilidade do sistema operacional!
 
 
 ```bash
-
 sudo dnf install gcc
-
-
 ```
 
 *Para conferir se instalou tudo certinho, digite:
 
 
 ```bash
-
 gcc --version
-
 ```
 
 
@@ -385,9 +361,7 @@ gcc --version
 * No terminal digite o seguinte comando:
 
 ```bash
-
 sudo pacman -S base-devel
-
 ```
 
 
@@ -396,17 +370,13 @@ sudo pacman -S base-devel
 * Para instação do `xcode` da Apple, digite o seguinte comando no terminal:
 
 ```bash
-
 xcode-select --install
-
 ```
 
 * Para confirmar a instalação digite:
 
 ```bash
-
 gcc --version
-
 ```
 
 📌 Caso queira instalar o pacote `gcc` oficial:
@@ -417,26 +387,18 @@ gcc --version
 1️⃣ Instale o Homebrew (se ainda não tiver):
 
 ```bash
-
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-
 ```
 
 
 ```bash
-
 brew install gcc
-
-
 ```
 
 * Pra ver se instalou tudo corretamente, digite:
 
 ```bash
-
 gcc --version
-
 ```
 
 ## 📌 **Conclusão**
