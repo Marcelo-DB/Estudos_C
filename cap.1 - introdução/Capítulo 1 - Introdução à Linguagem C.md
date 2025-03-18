@@ -102,8 +102,6 @@ _start:
 ```c
 
 /* Nome do Programa: Hello World!
-   Programador: 
-   Data: 16/03/2025
    Descrição: Este programa imprime a mensagem "Hello World!" */
 
 /* Biblioteca de entrada/saída de dados */
