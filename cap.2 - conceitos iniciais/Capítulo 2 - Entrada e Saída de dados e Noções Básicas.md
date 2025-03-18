@@ -7,7 +7,6 @@ Vamos começar nosso estudo em C com um simples código que todo programador faz
 Isso mesmo, um código de "batismo" que todo programador constrói quando conhece ou começa a programar em uma nova linguagem. (Os supersticiosos dizem que isso dá sorte! 😎💻)  
 
 ---
-
 c
 /* Nome do Programa: Hello World!
    Programador: 
@@ -25,34 +24,32 @@ int main (void) {
     return 0; 
     
 } /* Fim da função main */
-
+...
 
 🟢 1001 - Hello World!→ Extremamente Básico](https://www.beecrowd.com.br/judge/pt/problems/view/1001).
 
 Vamos observar cada componente desse programa em C e comentá-lo a fim de explicar como funciona o código!
 
-c
+...c
 /* Nome do Programa: Hello World!
    Programador: 
    Data: 16/03/2025
    Descrição: Este programa imprime a mensagem "Hello World!" */
-
+...
 
 Essa parte do programa em que as mensagens ficam entre /*......*/ nós chamamos de **comentário**. 
 
->Eles servem para documentar o código, explicando a sua funcionalidade e tornando a leitura mais fácil.
+Eles servem para documentar o código, explicando a sua funcionalidade e tornando a leitura mais fácil.
 
->O compilador ignora essas linhas, ou seja, *não afetam a execução do programa*.
+O compilador ignora essas linhas, ou seja, *não afetam a execução do programa*.
 
 
 > **Boa prática de programação!**
-
 > Sempre coloque comentários explicativos em seu código! Isso torna o programa mais compreensível para você no futuro e para qualquer outra pessoa que precise analisá-lo.
 
-
-c
+...c
 #include <stdio.h>
-
+...
 
 Essa linha importa a *biblioteca padrão de entrada e saída* em C <stdio.h>.
 
@@ -61,12 +58,11 @@ printf e scanf, essenciais para exibir ou receber dados do usuário.
 
 No caso deste código, *usamos printf para imprimir Hello World! na tela.*
 
-
-c
+```
 int main (void){
-    ...
+...
 }
-
+```
 
 * A função main() é a função principal de um programa em C.
 
@@ -74,10 +70,10 @@ int main (void){
 
 * Dentro dela, colocamos as instruções que serão executadas, como a exibição da mensagem "Hello World!".
 
-
+```
 c
 printf("Hello World!\n");
-
+```
 
 * printf() é uma função da biblioteca stdio.h usada para exibir texto na tela.
 
@@ -87,65 +83,60 @@ printf("Hello World!\n");
 
 ✅ Sintaxe padrão do printf():
 
-c
+```c
 printf("FRASE A SER ESCRITA");
-
+```
 
 📌 A Instrução return 0;
 
-c
+```c
 return 0;
-
+```
 
 * Esta linha indica que o programa foi finalizado corretamente.
+  
 * return 0; é uma boa prática em C, pois retorna o valor 0 ao sistema operacional, sinalizando que a execução foi bem-sucedida.
+  
 Vamos explorar mais sobre *return* no Capítulo 5 - Funções.
 
-### 📌 Saída esperada do programa
-
-Após compilar e rodar o código, a saída será:
-
-c
-Hello World!
-
-
-🎉 Parabéns! Você acabou de rodar seu primeiro programa em C!
-
-
-### 🚀 Conclusão
-
-Agora você já entende como funciona um programa básico em C!
-
-Vimos como usar comentários, bibliotecas, printf() e return 0;.
-
-No próximo capítulo, vamos explorar entrada de dados com scanf().
-
-### 📥 Como Rodar o Código
+## 📥 Como Rodar o Código
 
 Se você quiser rodar este código no seu computador, siga os passos abaixo:
 
 💻 Windows (CMD)
 
-bash
+```bash
 gcc helloworld.c -o helloworld
 ./helloworld.exe
-
+```
 
 💻 Windows (PowerShell)
 
-powershell
+```powershell
 gcc helloworld.c -o helloworld
 ./"helloworld.exe"
-
+```
 
 🐧 🍏 Linux/macOS
 
-terminal
+```terminal
 gcc helloworld.c -o helloworld
 ./helloworld
-
+```
 
 Agora é só executar e ver a mágica acontecer! 🎩✨
+
+
+📌 Saída esperada do programa
+
+Após compilar e rodar o código, a saída será:
+
+```
+c
+Hello World!
+```
+
+🎉 Parabéns! Você acabou de rodar seu primeiro programa em C!
 
 
 ## **📌 Área do Círculo e Produto Simples**
@@ -170,8 +161,7 @@ Agora, bora codar! 💻🔥
 
 ### **📌 Produto Simples
 
-c
-
+```c
 /* Nome do Programa: prod_simples.c
    Programador: 
    Data: 16/03/2025
@@ -202,20 +192,20 @@ int main (void) {
     return 0; 
     
 } /* Fim da função main */
-
+```
 
 🟢 1004 - Produto Simples → Trabalharemos com operações matemáticas básicas e formataremos a saída corretamente.
 
 
 Só pra deixar mais claro, o exercício do círculo, faremos o código posteriormente porque vamos falar sobre tipos de variáveis em C.
 
-c
+```c
 
     /*Declaração de variáveis*/
     int a;
     int b;
     int produto;
-
+```
 
 Observe que na declaração de variáveis há duas situações acontecendo:
 
@@ -238,10 +228,10 @@ há algumas regras a serem seguidas em C para os nomes das variáveis:
  
 > Tabela 2.2 - Regras de declaração de variáveis.
 
-c
+```c
 /*Leia dois inteiros*/
     scanf("%d %d", &a, &b);
-
+```
 
 Nesta parte do código fonte em C, temos a entrada de dados.
 
@@ -252,11 +242,11 @@ Nesta parte do código fonte em C, temos a entrada de dados.
 > Em breve faremos uma explicação mais detalhada em como funciona a memória e o alocamento de diversos
 tipos de variáveis em C (char, int, double, long double, etc.).
 
-c
+```c
 /*Atribui o produto entre os inteiros a e b na variável produto*/
     
     produto = a * b;
-
+```
 
 Aqui chegamos ao objetivo principal do programa: a multiplicação de dois números inteiros!
 
@@ -268,10 +258,10 @@ Aqui chegamos ao objetivo principal do programa: a multiplicação de dois núme
 	Exemplo: 10 % 3 resulta em 1.
 
 
-c
+```c
     /*Imprime o resultado*/
     printf("PROD = %d\n", produto); // // Imprime o resultado do produto
-
+```
 
 Finalmente, imprimimos o resultado da multiplicação com a função *printf* que já comentamos na seção anterior com o programa Hello World mas com alguns diferenciais:
 
@@ -286,34 +276,33 @@ Salvando o código, por exemplo, como multiplica.c no seu computador, siga os pa
 
 💻 Windows (CMD)
 
-bash
+```bash
 gcc multiplica.c -o multiplica
 ./multiplica.exe
-
+```
 
 💻 Windows (PowerShell)
 
-powershell
+```powershell
 gcc multiplica.c -o multiplica
 ./"multiplica.exe"
-
+```
 
 🐧 🍏 Linux/macOS
 
-terminal
+```terminal
 gcc multiplica.c -o multiplica
 ./multiplica
-
+```
 
 Agora é só executar e conferir de a multiplicação dá certo! 🎩✨
 
 Vamos agora partir para o próximo e último exemplo desse capítulo.
 
 
-## **📌 Área do Círculo**
+### **📌 Área do Círculo**
 
-c
-
+```c
 /* Nome do Programa: area_circulo.c
    Programador: 
    Data: 16/03/2025
@@ -343,13 +332,11 @@ int main (void) {
     return 0; 
     
 } /* Fim da função main */
+```
 
+🟢 1002 - Área do Círculo → Aprenderemos a usar números de ponto flutuante (double) e a função scanf() para receber valores do usuário.
 
-🟢 1002 - Área do Círculo → Aprenderemos a usar números de ponto flutuante (double) e a função scanf() para receber valores do 
-
-usuário.
-
-### 📌 Análise do Código
+📌 Análise do Código
 
 Este problema do Beecrowd (1002 - Área do Círculo) ensina a trabalhar com números de ponto flutuante (double) e a função scanf() para 
 
@@ -359,12 +346,12 @@ receber valores do usuário.
 
 No início do código, temos a seguinte linha:
 
-c
+```c
 
 /* Biblioteca de entrada/saída de dados */
 #include <stdio.h>
 #define PI 3.14159 //insere um valor fixo para o valor do número PI
-
+```
 
 Essa diretiva do pré-processador tem algumas funções importantes:
 
@@ -386,11 +373,11 @@ ponto e vírgula causaria erro na compilação.
 
 No bloco abaixo, dentro da função main(), temos a declaração de duas variáveis:
 
-c
+```c
 
 /*Declaração de variáveis*/
     double numero, area;
-
+```
 
 ✔ double → Tipo de dado utilizado para armazenar *números reais (ponto flutuante)* com maior precisão.
 
@@ -414,11 +401,11 @@ Usa menos memória, mas pode perder precisão em cálculos mais complexos.
 
 📌 Exemplo:
 
-c
+```c
 
 /*Declaração da variável pi em float com 4 casas decimais*/
     float valor = 3.1415;
-
+```
 
 🔵 double (Precisão Dupla)
 
@@ -430,11 +417,11 @@ Muito usado para cálculos científicos e financeiros.
 
 📌 Exemplo:
 
-c
+```c
 
 /*Declaração do número pi em double com mais precisão numérica*/
     double pi = 3.14159265358979;
-
+```
 
 🟠 long double (Precisão Estendida)
 
@@ -446,11 +433,11 @@ Pouco utilizado na prática, pois double já é suficiente para a maioria dos ca
 
 📌 Exemplo:
 
-c
+```c
 
 /*Declaração do número pi em long double com maior precisão numérica em C*/
 long double constante = 3.141592653589793238;
-
+```
 
 Quando usar cada um?
 
@@ -480,11 +467,11 @@ long double só é necessário quando se precisa de extrema precisão (exemplo: 
 
 5️⃣ Leitura dos Dados (scanf)
 
-c
+```c
 
 /*Leia um número real*/
     scanf("%lf", &numero);
-
+```
 
 Aqui, a função scanf() lê um número digitado pelo usuário e armazena na variável numero.
 
@@ -497,29 +484,25 @@ Se fosse um float, usaríamos %f.
 
 6️⃣ Cálculo da Área
 
-
-c
+```c
 
 /*Realiza o cálculo da área de uma circunferência*/
     
     area = numero * numero * PI;
-
+```
 
 ✔ Multiplica o raio ao quadrado (numero * numero) pelo valor de PI, seguindo a fórmula matemática da **área do círculo** (A = π r^2).
 
 
 7️⃣ Impressão do Resultado
 
-
-c
+```c
 
     /*Imprime o resultado*/
     printf("A=%.4f\n", area); // Imprime o resultado da área da circunferência
-
-
+```
 
 Finalmente, a impressão do resultado com a variável ´area´ na saída ´printf´.
-
 
 Aqui, a função ´printf()´ exibe o resultado:
 
@@ -541,25 +524,31 @@ Salvando o código, por exemplo, como area_circulo.c no seu computador, siga os 
 
 💻 Windows (CMD)
 
-bash
+```bash
 gcc area_circulo.c -o area_circulo
 ./area_circulo.exe
-
+```
 
 💻 Windows (PowerShell)
 
-powershell
+```powershell
 gcc area_circulo.c -o area_circulo
 ./"area_circulo.exe"
-
+```
 
 🐧 🍏 Linux/macOS
 
-bash
+```bash
 gcc area_circulo.c -o area_circulo
 ./area_circulo
-
+```
 
 Agora é só executar e verificar se a área do círculo está correta. 🎩✨
 
-E assim  terminamos o capítulo, no próximo falaremos sobre desenvolvimento estruturado com controle, até lá!!!
+## 🚀 Conclusão
+
+Agora você já entende como funciona um programa básico em C!
+
+Vimos como usar comentários, bibliotecas, printf() e scanf() e return 0;.
+
+No próximo capítulo, vamos explorar a parte de *programação estruturada* com repetição `if` e `else`.
