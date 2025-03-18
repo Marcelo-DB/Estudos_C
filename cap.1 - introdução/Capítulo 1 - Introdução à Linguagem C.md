@@ -148,7 +148,7 @@ Microsoft Windows passaram a ser escritos em C e muitas outras linguagens de
 programação criadas a partir de então se basearam em C como *Java* e *C++*.  
 
 
-## **📌 *Por quê aprender C?**
+## 📌 **Por quê aprender C?**
 
 
 Eis a pergunta que não quer calar: por quê? 🤷🏻‍♂️
@@ -444,35 +444,16 @@ gcc --version
 ## 📌 **Conclusão**
 
 A linguagem C não é apenas mais uma linguagem de programação; ela é a base sobre 
-
-a qual a computação moderna foi construída. Sistemas 
-
-operacionais, compiladores, bancos de dados, dispositivos embarcados e até 
-
-linguagens mais recentes se originam ou dependem de C.
+a qual a computação moderna foi construída. Sistemas operacionais, compiladores, bancos de dados, dispositivos embarcados e até linguagens mais recentes se originam ou dependem de C.
 
 Aprender C não é só aprender a programar, é aprender como os computadores 
 
-realmente funcionam. É ganhar controle sobre o hardware, 
+realmente funcionam. É ganhar controle sobre o hardware, entender gerenciamento de memória, otimizar código para alta performance e desenvolver soluções que são executadas diretamente no coração dos sistemas computacionais.
 
-entender gerenciamento de memória, otimizar código para alta performance e 
+Agora que você entende a história, domina os fundamentos e configurou seu ambiente, chegou a hora de transformar teoria em prática. Dominar C é mais do que aprender a programar—é entender a essência da computação. 
 
-desenvolver soluções que são executadas diretamente no 
+Nos próximos capítulos, vamos explorar mais a fundo a estrutura da linguagem e sua aplicação prática.
 
-coração dos sistemas computacionais.
-
-Agora que você entende a história, domina os fundamentos e configurou seu 
-
-ambiente, chegou a hora de transformar teoria em prática. Dominar C é mais do que 
-
-aprender a programar—é entender a essência da computação. 
-
-Nos próximos capítulos, vamos explorar mais a fundo a estrutura da linguagem e 
-
-sua aplicação prática.
-
-🚀 Prepare-se, porque sua jornada no mundo da programação C está apenas 
-
-começando! 💾🔥
+🚀 Prepare-se, porque sua jornada no mundo da programação C está apenas começando! 💾🔥
 
 
