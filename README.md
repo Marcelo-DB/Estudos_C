@@ -26,30 +26,15 @@ O repositório está organizado por capítulos, baseados nos conceitos fundament
 
 ## 📥 Como Rodar os Códigos
 
-Para compilar e executar um código em C, utilize os seguintes comandos:
+No primeiro capítulo explicamos como instalar o compilador `gcc` nas principais plataformas:
 
-### 💻 Microsoft Windows:
+💻 Microsoft Windows - através do **MinGW**.
 
-**No Prompt de Comando (CMD):**
+🐧 Linux - pelo próprio `gcc` nativo no sistema.
 
-```bash
-gcc nome_do_arquivo.c -o nome_do_executavel
-./nome_do_executavel.exe
-```
+🍏 macOS - `xcode` ou instalando o `gcc` pelo **Homebrew**.
 
-**No Windows PowerShell:**
-
-```bash
-gcc nome_do_arquivo.c -o nome_do_executavel
-./"nome_do_executavel.exe"
-```
-
-### 🐧 Linux e 🍏 macOS:
-
-```terminal
-gcc nome_do_arquivo.c -o nome_do_executavel
-./nome_do_executavel
-```
+Depois, em todos os exemplos, explicamos como rodar em cada plaforma.
 
 ## 🤝 Contribuições
 
