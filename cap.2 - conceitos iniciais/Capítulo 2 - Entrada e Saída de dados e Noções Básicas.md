@@ -6,8 +6,7 @@ Vamos começar nosso estudo em C com um simples código que todo programador faz
 
 Isso mesmo, um código de "batismo" que todo programador constrói quando conhece ou começa a programar em uma nova linguagem. (Os supersticiosos dizem que isso dá sorte! 😎💻)  
 
----
-c
+```c
 /* Nome do Programa: Hello World!
    Programador: 
    Data: 16/03/2025
@@ -24,18 +23,18 @@ int main (void) {
     return 0; 
     
 } /* Fim da função main */
-...
+```
 
 🟢 1001 - Hello World!→ Extremamente Básico](https://www.beecrowd.com.br/judge/pt/problems/view/1001).
 
 Vamos observar cada componente desse programa em C e comentá-lo a fim de explicar como funciona o código!
 
-...c
+```c
 /* Nome do Programa: Hello World!
    Programador: 
    Data: 16/03/2025
    Descrição: Este programa imprime a mensagem "Hello World!" */
-...
+```
 
 Essa parte do programa em que as mensagens ficam entre /*......*/ nós chamamos de **comentário**. 
 
@@ -47,9 +46,9 @@ O compilador ignora essas linhas, ou seja, *não afetam a execução do programa
 > **Boa prática de programação!**
 > Sempre coloque comentários explicativos em seu código! Isso torna o programa mais compreensível para você no futuro e para qualquer outra pessoa que precise analisá-lo.
 
-...c
+```c
 #include <stdio.h>
-...
+```
 
 Essa linha importa a *biblioteca padrão de entrada e saída* em C <stdio.h>.
 
@@ -103,14 +102,14 @@ Vamos explorar mais sobre *return* no Capítulo 5 - Funções.
 
 Se você quiser rodar este código no seu computador, siga os passos abaixo:
 
-💻 Windows (CMD)
+🪟 Windows (CMD)
 
 ```bash
 gcc helloworld.c -o helloworld
 ./helloworld.exe
 ```
 
-💻 Windows (PowerShell)
+🪟 Windows (PowerShell)
 
 ```powershell
 gcc helloworld.c -o helloworld
@@ -226,7 +225,7 @@ há algumas regras a serem seguidas em C para os nomes das variáveis:
 |Não pode conter espaços ou caracteres especiais ($,*,$, etc.) | totalVendas (válido) / total vendas (inválido)|
 |  Deve ser descritiva para melhorar a legibilidade do código. |            media_alunos ao invés de m         |
  
-> Tabela 2.2 - Regras de declaração de variáveis.
+* Tabela 2.1 - Regras de declaração de variáveis.
 
 ```c
 /*Leia dois inteiros*/
@@ -274,14 +273,14 @@ declarada após a vírgula (..., produto);).
 
 Salvando o código, por exemplo, como multiplica.c no seu computador, siga os passos abaixo:
 
-💻 Windows (CMD)
+🪟 Windows (CMD)
 
 ```bash
 gcc multiplica.c -o multiplica
 ./multiplica.exe
 ```
 
-💻 Windows (PowerShell)
+🪟 Windows (PowerShell)
 
 ```powershell
 gcc multiplica.c -o multiplica
@@ -522,14 +521,14 @@ tipo %f.
 Salvando o código, por exemplo, como area_circulo.c no seu computador, siga os passos abaixo:
 
 
-💻 Windows (CMD)
+🪟 Windows (CMD)
 
 ```bash
 gcc area_circulo.c -o area_circulo
 ./area_circulo.exe
 ```
 
-💻 Windows (PowerShell)
+🪟 Windows (PowerShell)
 
 ```powershell
 gcc area_circulo.c -o area_circulo
