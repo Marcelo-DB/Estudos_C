@@ -28,7 +28,7 @@ O repositório está organizado por capítulos, baseados nos conceitos fundament
 
 No primeiro capítulo explicamos como instalar o compilador `gcc` nas principais plataformas:
 
-💻 Microsoft Windows - através do **MinGW**.
+🪟 Microsoft Windows - através do **MinGW**.
 
 🐧 Linux - pelo próprio `gcc` nativo no sistema.
 
