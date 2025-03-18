@@ -97,7 +97,7 @@ _start:
 
 ```
 
-🟢 Exemplo - Hello World → exemplo de *linguagem de baixo nível* que tem por objetivo imprimir na tela a mensagem "Hello World!".
+🟢 Exemplo em Assembly - Hello World → exemplo de *linguagem de baixo nível* que tem por objetivo imprimir na tela a mensagem "Hello World!".
 
 ```c
 
@@ -120,7 +120,7 @@ int main (void) {
 
 ```
 
-🟢 Exemplo - Hello World!→ Um programa em C *de alto nível* que imprime a mesma mensagem, "Hello World!". 
+🟢 Exemplo em C - Hello World!→ Um programa em C *de alto nível* que imprime a mesma mensagem, "Hello World!". 
 
 
 > Enquanto o Assembly exige manipulação direta dos registradores e chamadas explícitas ao kernel, C permite um código mais limpo e 
