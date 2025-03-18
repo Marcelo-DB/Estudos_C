@@ -198,7 +198,7 @@ Utilizaremos o compilador `gcc` para Windows e distribuições Linux (Ubuntu, De
 dispositivos da Apple. 
 
 
-💻 Microsoft Windows 
+🪟 Microsoft Windows 
 
 
 * Primeiro, vamos baixar o compilador `gcc` através do programa MinGW que pode ser baixado nesse site:
