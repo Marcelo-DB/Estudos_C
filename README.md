@@ -36,6 +36,17 @@ No primeiro capítulo explicamos como instalar o compilador `gcc` nas principais
 
 Depois, em todos os exemplos, explicamos como rodar em cada plaforma.
 
+## ⚖️ Observações Legais
+
+- Microsoft Windows® é uma marca registrada da Microsoft Corporation nos Estados Unidos e em diversos países.
+- macOS® é uma marca registrada da Apple Inc. nos Estados Unidos e em outros países. Outras marcas como Mac®, iOS®, watchOS® e similares são protegidas por direitos de marca e patentes de sua empresa matriz e afiliadas.
+- Linux® é uma marca registrada de Linus Torvalds, sob responsabilidade do Linux Mark Institute, com uso autorizado em contextos não comerciais.
+
+Este projeto é de cunho educacional, sem fins comerciais, e não possui qualquer vínculo com as empresas ou entidades mencionadas.
+
+As menções a sistemas operacionais, ferramentas e marcas são utilizadas exclusivamente com finalidade didática, para contextualizar o ambiente de desenvolvimento dos códigos aqui publicados.
+
+
 ## 🤝 Contribuições
 
 Este repositório está sempre em evolução! Se quiser sugerir melhorias, apontar erros ou colaborar de alguma forma, sinta-se à vontade para abrir uma issue ou fazer um pull request.
