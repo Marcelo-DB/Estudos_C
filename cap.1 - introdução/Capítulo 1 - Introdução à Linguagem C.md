@@ -216,7 +216,7 @@ https://sourceforge.net/projects/mingw/
 > caso o usuário se envolva nessas linguagens também! 🤓💾
 
 
-* Após selecionar o *mingw32-gcc-g++*, volte no canto superior esquerdo e selecione *Installation* e depois *Apply Changes*, com isso 
+* Após selecionar o *mingw32-base* e *mingw32-gcc-g++*, volte no canto superior esquerdo e selecione *Installation* e depois *Apply Changes*, com isso 
 
 o compilador gcc será instalado no computador.
 
